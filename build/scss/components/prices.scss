@@ -1,0 +1,127 @@
+.prices {
+	position: relative;
+	z-index: 0;
+	padding: 60px 0;
+}
+.prices__wrapper {
+	@extend .container;
+}
+
+.prices__box {
+	margin: 40px 0 0 0;
+	text-align: center;
+	font-size: 0;
+}
+.prices__item {
+	display: inline-block;
+	vertical-align: top;
+	width: 32%;
+	font-size: 16px;
+	transition: all .8s ease;
+	box-shadow: 0 1px 20px 1px #eee;
+	&:hover, &:active {
+		box-shadow: 0 1px 30px 1px #ddd;
+	}
+}
+.prices__item:not(:last-child) {
+	margin: 0 2% 0 0;
+}
+.prices__item-title {
+	padding: 10px;
+	background-color: $main-color;
+	background-image: linear-gradient(to right, #78b9d7, #92d3e4);
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.prices__item-box {
+	margin: 30px 0 0 0;
+	padding: 0 8%;
+	font-size: 18px;
+}
+.prices__item-row {
+	position: relative;
+	padding: 0 0 45px 0;
+	line-height: 1.2;
+	&:after {
+		content: '';
+		position: absolute;
+		bottom: 15px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 10px;
+		height: 10px;
+		background-color: lighten($main-color, 30%);
+		border-radius: 50%;
+	}
+	b {
+		display: block;
+		font-size: 22px;
+
+	}
+}
+.prices__item-row:last-child {
+	&:after {
+		display: none;
+	}
+}
+.prices__item-link {
+	a {
+		display: block;
+		padding: 15px;
+		background-color: #a5e5ef;
+		font-size: 24px;
+		text-transform: uppercase;
+		color: #fff;
+		text-decoration: none;
+		transition: all .8s ease;
+		font-weight: 600;
+		border-radius: 2px;
+		&:hover, &:active, &:focus {
+			background-color: #78b9d7;
+		}
+	}
+}
+
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.prices__item-box {
+		font-size: 16px;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.prices__item {
+		width: 46%;
+		margin: 0 1% 30px 1%;
+	}
+	.prices__item:not(:last-child) {
+		margin: 0 1% 30px 1%;
+	}
+	
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.prices__item {
+		width: 100%;
+		margin: 0 0 30px 0;
+	}
+	.prices__item:not(:last-child) {
+		margin: 0 0 30px 0;
+	}
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	/**/
+}

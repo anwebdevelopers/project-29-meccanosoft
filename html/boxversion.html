@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Meccanosoft</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Header CSS (First Sections of Website: paste after release from header.min.css here) -->
+	<style>
+		#preloader{position:fixed;left:0;top:0;bottom:0;right:0;z-index:100;background: #121c2b url("img/bg-header-page.jpg") center 0 /cover;}#preloader__img{position:fixed;z-index:101;top:50%;left:50%;transform:translate(-50%,-50%);}
+	</style>
+	
+	<!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
+	<script>!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n}function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);</script>
+
+	<!-- Load CSS Start -->
+	<script>loadLocalStorageCSS( "webfonts", "/css/fonts.min.css?ver=1.0.0" );</script>
+	<script>loadCSS( "/css/main.min.css?ver=1.0.0", false, "all" );</script>
+	<!-- Load CSS End -->
+
+	<!-- Load CSS Compilled without JS -->
+	<noscript>
+		<link rel="stylesheet" href="css/fonts.min.css">
+		<link rel="stylesheet" href="css/main.min.css">
+	</noscript>
+</head>
+
+<body>
+	<div id="preloader">
+		<div id="preloader__img">
+			<img src="img/logo-footer.png" alt="">
+		</div>
+	</div>
+
+	<header id="header" class="header">
+		<div class="header__background header__background_page"></div>
+		<div class="header__background-anim-left"></div>
+		<div class="header__background-anim-right"></div>
+		<div class="header__wrapper">
+			<div class="header__top-line">
+				<div class="header__logo">
+					<img src="img/logo.svg" alt="">
+				</div>
+				<div class="header__phone">
+					<a href="tel:+74996783287">+7 (499) 678-32-87</a>
+				</div>
+				<div class="header__social">
+					<a href="#"><i class="icon-facebook"></i></a>
+					<a href="#"><i class="icon-vkontakte"></i></a>
+					<a href="#"><i class="icon-youtube-play"></i></a>
+				</div>
+			</div>
+			<button class="header__nav-button"><span></span></button>
+			<nav class="header__nav">
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="index.html#advantages">Преимущества</a></li>
+					<li><a class="active">Коробочная версия</a></li>
+					<li><a href="#">Уроки</a></li>
+					<li><a href="index.html#reviews">Отзывы</a></li>
+					<li><a href="index.html#prices">Цены</a></li>
+					<li><a href="vacancy.html">Вакансии</a></li>
+					<li><a href="#contacts">Контакты</a></li>
+				</ul>
+			</nav>
+			<div class="header__content">
+				<div class="header__title">
+					<h1><span>MECCANOSOFT CRM</span><small>Бесплатная пробная коробочная версия доступна уже сейчас</small></h1>
+				</div>
+				<div class="header__link">
+					<a href="#">загрузить бесплатно</a>
+				</div>
+				<div class="header__img">
+					<img src="img/img-header.png" alt="">
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<section class="boxversion">
+		<div class="boxversion__wrapper">
+			<div class="title">
+				<h2>Коробочная версия</h2>
+			</div>
+			<div class="boxversion__box">
+				<div class="boxversion__title">
+					<h3>Функции</h3>
+				</div>
+				<div class="boxversion__functions">
+					<div class="boxversion__functions-item">
+						<div class="boxversion__functions-title">
+							<span>SIP <br>Телефония</span>
+						</div>
+						<div class="boxversion__functions-text">
+							<p>
+								Возможность подключить уже существующий номер к CRM
+							</p>
+						</div>
+					</div>
+					<div class="boxversion__functions-item">
+						<div class="boxversion__functions-title">
+							<span>Ведение <br>контрагентов</span>
+						</div>
+						<div class="boxversion__functions-text">
+							<p>
+								Поддерживайте контакт с вашими контрагентами с помощью CRM
+							</p>
+						</div>
+					</div>
+					<div class="boxversion__functions-item">
+						<div class="boxversion__functions-title">
+							<span>Ведение <br>документооборота</span>
+						</div>
+						<div class="boxversion__functions-text">
+							<p>
+								Поддерживайте контакт с вашими контрагентами с помощью CRM
+							</p>
+						</div>
+					</div>
+					<div class="boxversion__functions-item">
+						<div class="boxversion__functions-title">
+							<span>Ведение <br>бухгалтерии</span>
+						</div>
+						<div class="boxversion__functions-text">
+							<p>
+								Возможность подключить уже существующий номер к CRM
+							</p>
+						</div>
+					</div>
+					<div class="boxversion__functions-item">
+						<div class="boxversion__functions-title">
+							<span>Интеграция <br>с 1С</span>
+						</div>
+						<div class="boxversion__functions-text">
+							<p>
+								Поддерживайте контакт с вашими контрагентами с помощью CRM
+							</p>
+						</div>
+					</div>
+					<div class="boxversion__functions-item">
+						<div class="boxversion__functions-title">
+							<span>Автоатический выбор лучшего поставщика</span>
+						</div>
+						<div class="boxversion__functions-text">
+							<p>
+								Поддерживайте контакт с вашими контрагентами с помощью CRM
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="boxversion__box">
+				<div class="boxversion__title">
+					<h3>Системные требования</h3>
+				</div>
+				<div class="boxversion__reqirements">
+					<table class="boxversion__reqirements-table">
+						
+		                <caption>Минимальные системные требования</caption>
+		                <tbody>
+							<tr>
+								<td>Процессор</td><td>Intel Pentium с тактовой частотой 1,5 ГГц или выше</td>
+							</tr>
+							<tr>
+								<td>Память</td><td>512 МБ ОЗУ</td>
+							</tr>
+							<tr>
+								<td>Свободное место на жестком диске (для установки)</td><td>100 МБ</td>
+							</tr>
+		                </tbody>
+						
+					</table>
+					<table class="boxversion__reqirements-table">
+						
+						<caption>Рекомендуемые системные требования</caption>
+						<tbody>
+							<tr>
+								<td>Процессор</td><td>Intel Pentium с тактовой частотой 1,8 ГГц или выше</td>
+							</tr>
+							<tr>
+								<td>Память</td><td>1 ГБ ОЗУ</td>
+							</tr>
+							<tr>
+								<td>Свободное место на жестком диске (для установки)</td><td>Зависит от потребностей пользователя</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="boxversion__support">
+					<div class="boxversion__support-title">
+						<span>Meccanosoft CRM поддерживает:</span>
+					</div>
+					<div class="boxversion__support-box">
+						<div class="boxversion__support-item">
+							<span>MS Windows 7</span>
+						</div>
+						<div class="boxversion__support-item">
+							<span>MS Windows 8</span>
+						</div>
+						<div class="boxversion__support-item">
+							<span>MS Windows 10</span>
+						</div>
+					</div>
+				</div>
+				<div class="boxversion__support">
+					<div class="boxversion__support-title">
+						<span>Возможность доступа к CRM поддерживается в указанных ниже браузерах:</span>
+					</div>
+					<div class="boxversion__support-box">
+						<div class="boxversion__support-item">
+							<span>Google Chrome</span>
+						</div>
+						<div class="boxversion__support-item">
+							<span>Mozilla Firefox</span>
+						</div>
+						<div class="boxversion__support-item">
+							<span>Opera</span>
+						</div>
+						<div class="boxversion__support-item">
+							<span>Safari</span>
+						</div>
+						<div class="boxversion__support-item">
+							<span>Microsoft Edge</span>
+						</div>
+						<div class="boxversion__support-item">
+							<span>Microsoft Internet Explorer 11</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="boxversion__box">
+				<div class="boxversion__title">
+					<h3>Сравнить продукты</h3>
+				</div>
+				<div class="boxversion__compare">
+					<table class="boxversion__compare-table">
+						<tbody>
+							<tr>
+								<th>Выберите наиболее подходящий для вас продукт</th>
+								<th>Trial</th>
+								<th>Enterprise</th>
+								<th>Corporation</th>
+							</tr>
+							<tr>
+								<td>Срок действия</td>
+								<td>30 дней</td>
+								<td>Неограниченно</td>
+								<td>Неограниченно</td>
+							</tr>
+							<tr>
+								<td>Число пользователей</td>
+								<td>2</td>
+								<td>30</td>
+								<td>100</td>
+							</tr>
+							<tr>
+								<td>Возможность работы offline</td>
+								<td><img src="img/cross.png" alt=""></td>
+								<td><img src="img/mark.png" alt=""></td>
+								<td><img src="img/mark.png" alt=""></td>
+							</tr>
+							<tr>
+								<td>Возможность работы через браузер</td>
+								<td><img src="img/cross.png" alt=""></td>
+								<td><img src="img/mark.png" alt=""></td>
+								<td><img src="img/mark.png" alt=""></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="boxversion__link">
+				<a href="#">Посмотреть возможности</a>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="contacts" class="contacts">
+		<div class="contacts__wrapper">
+			<div class="title">
+				<h2>контакты</h2>
+			</div>
+			<div class="contacts__box">
+				<div class="contacts__name">
+					<span>ООО МекканоСофт</span>
+				</div>
+				<div class="contacts__adress">
+					<span>Россия, 115230, г. Москва  ул. Варшавское шоссе, д.46</span>
+				</div>
+				<div class="contacts__phone">
+					<a href="tel:+74996783287">+7 (499) 678-32-87</a>
+				</div>
+				<div class="contacts__social">
+					<a href="#"><i class="icon-facebook"></i></a>
+					<a href="#"><i class="icon-vkontakte"></i></a>
+					<a href="#"><i class="icon-youtube-play"></i></a>
+				</div>
+				<div class="contacts__links">
+					<a href="#popup" class="popup-with-move-anim">Оставьте ваше мнение</a>
+					<a href="mailto:support@meccanosoft.com">напишите нам письмо</a>
+				</div>
+			</div>
+		</div>
+		<div id="map" class="contacts__map"></div>
+	</section>
+
+	<footer class="footer">
+		<div class="footer__wrapper">
+			<div class="footer__logo">
+				<img src="img/logo-footer.png" alt="">
+			</div>
+			<div class="footer__text">
+				<div class="footer__adress">
+					<span>Россия, 115230, г. Москва  ул. Варшавское шоссе, д.46</span>
+				</div>
+				<div class="footer__phone">
+					<a href="tel:+74996783287">+7 (499) 678-32-87</a>
+				</div>
+
+			</div>
+			<div class="footer__social">
+				<a href="#"><i class="icon-facebook"></i></a>
+				<a href="#"><i class="icon-vkontakte"></i></a>
+				<a href="#"><i class="icon-youtube-play"></i></a>
+			</div>
+		</div>
+	</footer>
+
+	<div class="hidden">
+		<div id="popup" class="popup zoom-anim-dialog mfp-hide">
+			<div class="popup__form-title">
+				<span>Ваше мнение очень важно для нас</span>
+			</div>
+			<form class="popup__form">
+				
+				<div class="popup__form-input">
+					<input type="text" name="name" placeholder="Имя" required>
+				</div>
+				<div class="popup__form-input">
+					<input type="email" name="email" placeholder="E-mail" required>
+				</div>
+				<div class="popup__form-area">
+					<textarea name="message" placeholder="Сообщение" required></textarea>
+				</div>
+				<div class="popup__form-submit">
+					<button type="submit">отправить</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<!-- Load Scripts Start -->
+	<script>var scr = {"scripts":[
+		{"src" : "http://api-maps.yandex.ru/2.1/?lang=ru_RU", "async" : false},
+		{"src" : "js/libs.js", "async" : false},
+		{"src" : "js/common.js", "async" : false}
+		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+	</script>
+	<!-- Load Scripts End -->
+
+</body>
+</html>

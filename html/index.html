@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Meccanosoft</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Header CSS (First Sections of Website: paste after release from header.min.css here) -->
+	<style>
+		#preloader{position:fixed;left:0;top:0;bottom:0;right:0;z-index:100;background: #121c2b url("img/bg-header.jpg") center 0 /cover;}#preloader__img{position:fixed;z-index:101;top:50%;left:50%;transform:translate(-50%,-50%);}
+	</style>
+	
+	<!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
+	<script>!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n}function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);</script>
+
+	<!-- Load CSS Start -->
+	<script>loadLocalStorageCSS( "webfonts", "/css/fonts.min.css?ver=1.0.0" );</script>
+	<script>loadCSS( "/css/main.min.css?ver=1.0.0", false, "all" );</script>
+	<!-- Load CSS End -->
+
+	<!-- Load CSS Compilled without JS -->
+	<noscript>
+		<link rel="stylesheet" href="css/fonts.min.css">
+		<link rel="stylesheet" href="css/main.min.css">
+	</noscript>
+</head>
+
+<body class="home">
+	<div id="preloader">
+		<div id="preloader__img">
+			<img src="img/logo-footer.png" alt="">
+		</div>
+	</div>
+
+	<header id="header" class="header">
+		<div class="header__background"></div>
+		<div class="header__background-anim-left"></div>
+		<div class="header__background-anim-right"></div>
+		<div class="header__wrapper">
+			<div class="header__top-line">
+				<div class="header__logo">
+					<img src="img/logo.svg" alt="">
+				</div>
+				<div class="header__phone">
+					<a href="tel:+74996783287">+7 (499) 678-32-87</a>
+				</div>
+				<div class="header__social">
+					<a href="#"><i class="icon-facebook"></i></a>
+					<a href="#"><i class="icon-vkontakte"></i></a>
+					<a href="#"><i class="icon-youtube-play"></i></a>
+				</div>
+			</div>
+			<button class="header__nav-button"><span></span></button>
+			<nav class="header__nav">
+				<ul>
+					<li><a href="#header">Главная</a></li>
+					<li><a href="#advantages">Преимущества</a></li>
+					<li><a href="boxversion.html">Коробочная версия</a></li>
+					<li><a href="#">Уроки</a></li>
+					<li><a href="#reviews">Отзывы</a></li>
+					<li><a href="#prices">Цены</a></li>
+					<li><a href="vacancy.html">Вакансии</a></li>
+					<li><a href="#contacts">Контакты</a></li>
+				</ul>
+			</nav>
+			<div class="header__content">
+				<div class="header__title">
+					<h1>РАБОТАЙТЕ И ОБЩАЙТЕСЬ  С УДОВОЛЬСТВИЕМ!  <span>MECCANOSOFT CRM</span></h1>
+				</div>
+				<div class="header__text">
+					<p>Отличное решение для объединения Вас с клиентами,  партнерами, коллегами по бизнесу.</p>
+				</div>
+				<div class="header__img">
+					<img src="img/img-header.png" alt="">
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<section id="advantages" class="advantages">
+		<div class="advantages__wrapper">
+			<div class="title">
+				<h2>Преимущества</h2>
+			</div>
+			<div class="advantages__box">
+				<div class="advantages__item">
+					<div class="advantages__item-img">
+						<img src="img/img-advantages1.png" alt="">
+					</div>
+					<div class="advantages__item-box">
+						<div class="advantages__item-title">
+							<h3>Совместимо с мобильными устройствами</h3>
+						</div>
+						<div class="advantages__item-text">
+							<p>
+								Просто зайдите на сайт из браузера со своего мобильного устройства и пользуйтесь.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="advantages__item advantages__item_toright">
+					<div class="advantages__item-img">
+						<img src="img/img-advantages2.png" alt="">
+					</div>
+					<div class="advantages__item-box">
+						<div class="advantages__item-title">
+							<h3>Бесплатный почтовый сервис</h3>
+						</div>
+						<div class="advantages__item-text">
+							<p>
+								Пользуйтесь почтой без ограничений не покидая CRM.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="advantages__item advantages__item_tobottom">
+					<div class="advantages__item-img">
+						<img src="img/img-advantages3.png" alt="">
+					</div>
+					<div class="advantages__item-box">
+						<div class="advantages__item-title">
+							<h3>Наличие десктопной версии</h3>
+						</div>
+						<div class="advantages__item-text">
+							<p>
+								Если вам по какой-либо причине не нравится пользоваться нашей веб-версией CRM, вы без труда можете установить десктопную и использовать её.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="advantages__item advantages__item_toright advantages__item_tobottom">
+					<div class="advantages__item-img">
+						<img src="img/img-advantages4.png" alt="">
+					</div>
+					<div class="advantages__item-box">
+						<div class="advantages__item-title">
+							<h3>Интергация с социальными сетями</h3>
+						</div>
+						<div class="advantages__item-text">
+							<p>
+								Пользуйтесь почтой без ограничений не покидая CRM.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="reviews" class="reviews">
+		<div class="reviews__wrapper">
+			<div class="title">
+				<h2>Отзывы</h2>
+			</div>
+			<div class="reviews__box1">
+				<div class="reviews__slider1 flipster">
+					<ul class="reviews__slider1-box">
+						<li class="reviews__slider1-item">
+							<div class="reviews__slider1-img">
+								<img src="img/img-reviews1.jpg" alt="">
+							</div>
+							<div class="reviews__slider1-content">
+								<div class="reviews__slider1-text">
+									<!-- Количество текста не должно превышать данное колличество, из за специфического строения слайдера -->
+									<p>
+										Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for lorem ipsum will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+									</p>
+								</div>
+								<div class="reviews__slider1-name">
+									<span>28.01.2016 - Andy Smith</span>
+								</div>
+							</div>
+
+						</li>
+						<li class="reviews__slider1-item">
+							<div class="reviews__slider1-img">
+								<img src="img/img-reviews1.jpg" alt="">
+							</div>
+							<div class="reviews__slider1-content">
+								<div class="reviews__slider1-text">
+									<p>
+										Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for lorem ipsum will uncover many web sites still in their infancy. 
+									</p>
+								</div>
+								<div class="reviews__slider1-name">
+									<span>28.01.2016 - Andy Smith</span>
+								</div>
+							</div>
+
+						</li>
+						<li class="reviews__slider1-item">
+							<div class="reviews__slider1-img">
+								<img src="img/img-reviews1.jpg" alt="">
+							</div>
+							<div class="reviews__slider1-content">
+								<div class="reviews__slider1-text">
+									<p>
+										Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for lorem ipsum will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+									</p>
+								</div>
+								<div class="reviews__slider1-name">
+									<span>28.01.2016 - Andy Smith</span>
+								</div>
+							</div>
+
+						</li>
+						<li class="reviews__slider1-item">
+							<div class="reviews__slider1-img">
+								<img src="img/img-reviews1.jpg" alt="">
+							</div>
+							<div class="reviews__slider1-content">
+								<div class="reviews__slider1-text">
+									<p>
+										Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for lorem ipsum will uncover many web sites still in their infancy. 
+									</p>
+								</div>
+								<div class="reviews__slider1-name">
+									<span>28.01.2016 - Andy Smith</span>
+								</div>
+							</div>
+
+						</li>
+						<li class="reviews__slider1-item">
+							<div class="reviews__slider1-img">
+								<img src="img/img-reviews1.jpg" alt="">
+							</div>
+							<div class="reviews__slider1-content">
+								<div class="reviews__slider1-text">
+									<!-- Количество текста не должно превышать данное колличество, из за специфического строения слайдера -->
+									<p>
+										Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for lorem ipsum will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+									</p>
+								</div>
+								<div class="reviews__slider1-name">
+									<span>28.01.2016 - Andy Smith</span>
+								</div>
+							</div>
+
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+		<div class="reviews__wrapper">
+			<div class="title">
+				<h2>Отзывы наших <br>партнеров</h2>
+			</div>
+			<div class="reviews__box2">
+				<div class="reviews__slider2 flipster">
+					<ul class="reviews__slider2-box">
+						<li class="reviews__slider2-item">
+							<div class="reviews__slider2-img">
+								<img src="img/img-reviews2.jpg" alt="">
+							</div>
+							<div class="reviews__slider2-content">
+								<div class="reviews__slider2-name">
+									<span>Татьяна Колобова <br>“ИСТ-Групп”</span>
+								</div>
+								<div class="reviews__slider2-text">
+									<p>
+										Uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+									</p>
+								</div>
+								
+							</div>
+
+						</li>
+						<li class="reviews__slider2-item">
+							<div class="reviews__slider2-img">
+								<img src="img/img-reviews3.jpg" alt="">
+							</div>
+							<div class="reviews__slider2-content">
+								<div class="reviews__slider2-name">
+									<span>Екатерина Ульяшова <br>“ООО ИВЕНТО”</span>
+								</div>
+								<div class="reviews__slider2-text">
+									<p>
+										Uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+									</p>
+								</div>
+								
+							</div>
+
+						</li>
+						<li class="reviews__slider2-item">
+							<div class="reviews__slider2-img">
+								<img src="img/img-reviews4.jpg" alt="">
+							</div>
+							<div class="reviews__slider2-content">
+								<div class="reviews__slider2-name">
+									<span>Дмитрий Александров <br>“ДПА”</span>
+								</div>
+								<div class="reviews__slider2-text">
+									<p>
+										Uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+									</p>
+								</div>
+								
+							</div>
+
+						</li>
+						<li class="reviews__slider2-item">
+							<div class="reviews__slider2-img">
+								<img src="img/img-reviews2.jpg" alt="">
+							</div>
+							<div class="reviews__slider2-content">
+								<div class="reviews__slider2-name">
+									<span>Татьяна Колобова <br>“ИСТ-Групп”</span>
+								</div>
+								<div class="reviews__slider2-text">
+									<p>
+										Uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+									</p>
+								</div>
+								
+							</div>
+
+						</li>
+						<li class="reviews__slider2-item">
+							<div class="reviews__slider2-img">
+								<img src="img/img-reviews3.jpg" alt="">
+							</div>
+							<div class="reviews__slider2-content">
+								<div class="reviews__slider2-name">
+									<span>Екатерина Ульяшова <br>“ООО ИВЕНТО”</span>
+								</div>
+								<div class="reviews__slider2-text">
+									<p>
+										Uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+									</p>
+								</div>
+								
+							</div>
+
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="prices" class="prices">
+		<div class="prices__wrapper">
+			<div class="title">
+				<h2>цены</h2>
+			</div>
+			<div class="prices__box">
+				<div class="prices__item">
+					<div class="prices__item-title">
+						<span>Проект</span>
+					</div>
+					<div class="prices__item-box">
+						<div class="prices__item-row">
+							<span>Простой тариф для маленьких организаций</span>
+						</div>
+						<div class="prices__item-row">
+							<b>500</b>
+							<span>рублей в месяц</span>
+						</div>
+						<div class="prices__item-row">
+							<b>10</b>
+							<span>пользователей</span>
+						</div>
+						<div class="prices__item-row">
+							<b>5Гб</b>
+							<span>в облаке</span>
+						</div>
+						<div class="prices__item-row">
+							<b>Телефония</b>
+						</div>
+					</div>
+					<div class="prices__item-link">
+						<a href="#">купить</a>
+					</div>
+				</div>
+				<div class="prices__item">
+					<div class="prices__item-title">
+						<span>Бизнес</span>
+					</div>
+					<div class="prices__item-box">
+						<div class="prices__item-row">
+							<span>Тариф, который подойдёт для организаций среднего размера</span>
+						</div>
+						<div class="prices__item-row">
+							<b>900</b>
+							<span>рублей в месяц</span>
+						</div>
+						<div class="prices__item-row">
+							<b>30</b>
+							<span>пользователей</span>
+						</div>
+						<div class="prices__item-row">
+							<b>20Гб</b>
+							<span>в облаке</span>
+						</div>
+						<div class="prices__item-row">
+							<b>Телефония</b>
+						</div>
+						<div class="prices__item-row">
+							<b>Поддержка</b>
+						</div>
+					</div>
+					<div class="prices__item-link">
+						<a href="#">купить</a>
+					</div>
+				</div>
+				<div class="prices__item">
+					<div class="prices__item-title">
+						<span>корпорация</span>
+					</div>
+					<div class="prices__item-box">
+						<div class="prices__item-row">
+							<span>Тариф для больших корпораций</span>
+						</div>
+						<div class="prices__item-row">
+							<b>6 900</b>
+							<span>рублей в месяц</span>
+						</div>
+						<div class="prices__item-row">
+							<b>300</b>
+							<span>пользователей</span>
+						</div>
+						<div class="prices__item-row">
+							<b>150Гб</b>
+							<span>в облаке</span>
+						</div>
+						<div class="prices__item-row">
+							<b>Телефония</b>
+						</div>
+						<div class="prices__item-row">
+							<b>Поддержка</b>
+						</div>
+					</div>
+					<div class="prices__item-link">
+						<a href="#">купить</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contacts" class="contacts">
+		<div class="contacts__wrapper">
+			<div class="title">
+				<h2>контакты</h2>
+			</div>
+			<div class="contacts__box">
+				<div class="contacts__name">
+					<span>ООО МекканоСофт</span>
+				</div>
+				<div class="contacts__adress">
+					<span>Россия, 115230, г. Москва  ул. Варшавское шоссе, д.46</span>
+				</div>
+				<div class="contacts__phone">
+					<a href="tel:+74996783287">+7 (499) 678-32-87</a>
+				</div>
+				<div class="contacts__social">
+					<a href="#"><i class="icon-facebook"></i></a>
+					<a href="#"><i class="icon-vkontakte"></i></a>
+					<a href="#"><i class="icon-youtube-play"></i></a>
+				</div>
+				<div class="contacts__links">
+					<a href="#popup" class="popup-with-move-anim">Оставьте ваше мнение</a>
+					<a href="mailto:support@meccanosoft.com">напишите нам письмо</a>
+				</div>
+			</div>
+		</div>
+		<div id="map" class="contacts__map"></div>
+	</section>
+
+	<footer class="footer">
+		<div class="footer__wrapper">
+			<div class="footer__logo">
+				<img src="img/logo-footer.png" alt="">
+			</div>
+			<div class="footer__text">
+				<div class="footer__adress">
+					<span>Россия, 115230, г. Москва  ул. Варшавское шоссе, д.46</span>
+				</div>
+				<div class="footer__phone">
+					<a href="tel:+74996783287">+7 (499) 678-32-87</a>
+				</div>
+
+			</div>
+			<div class="footer__social">
+				<a href="#"><i class="icon-facebook"></i></a>
+				<a href="#"><i class="icon-vkontakte"></i></a>
+				<a href="#"><i class="icon-youtube-play"></i></a>
+			</div>
+		</div>
+	</footer>
+
+	<div class="hidden">
+		<div id="popup" class="popup zoom-anim-dialog mfp-hide">
+			<div class="popup__form-title">
+				<span>Ваше мнение очень важно для нас</span>
+			</div>
+			<form class="popup__form">
+				
+				<div class="popup__form-input">
+					<input type="text" name="name" placeholder="Имя" required>
+				</div>
+				<div class="popup__form-input">
+					<input type="email" name="email" placeholder="E-mail" required>
+				</div>
+				<div class="popup__form-area">
+					<textarea name="message" placeholder="Сообщение" required></textarea>
+				</div>
+				<div class="popup__form-submit">
+					<button type="submit">отправить</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<!-- Load Scripts Start -->
+	<script>var scr = {"scripts":[
+		{"src" : "http://api-maps.yandex.ru/2.1/?lang=ru_RU", "async" : false},
+		{"src" : "js/libs.js", "async" : false},
+		{"src" : "js/common.js", "async" : false}
+		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+	</script>
+	<!-- Load Scripts End -->
+
+</body>
+</html>

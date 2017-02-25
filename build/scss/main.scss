@@ -1,0 +1,104 @@
+@import "bourbon";
+@import "components/vars.scss";
+@import "components/normalize.scss";
+@import "components/fontello.scss";
+
+*::-webkit-input-placeholder {
+	color: $main-color;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: $main-color;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: $main-color;
+	opacity: 1;
+}
+
+*:-ms-input-placeholder {
+	color: $main-color;
+	opacity: 1;
+}
+
+*, 
+*:before, 
+*:after{
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.5;
+	font-family: 'Open Sans', sans-serif;
+	color: #3e5273;
+	background-color: #fff;
+}
+.container {
+	max-width: 1190px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.hidden {
+	display: none;
+}
+a {
+	outline: none !important;
+}
+.title {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	text-transform: uppercase;
+	line-height: 1.2;
+	padding: 0 80px 0 0;
+	h1, h2 {
+		margin: 0;
+		font-size: 24px;
+	}
+	&:after {
+		@include pseudo;
+		display: inline-block;
+		vertical-align: top;
+		top: 8px;
+		right: 0;
+		width: 70px;
+		height: 10px;
+		background-image: url(../img/sprites.png);
+		background-position: -415px -7px ;	
+	}
+}
+
+//Custom Styles Here
+@import "components/header.scss";
+@import "components/advantages.scss";
+@import "components/reviews.scss";
+@import "components/prices.scss";
+@import "components/contacts.scss";
+@import "components/footer.scss";
+@import "build/scss/components/magnific-popup.scss";
+//boxversion
+@import "components/boxversion.scss";
+//vacancy
+@import "components/vacancy.scss";
+
+
+//ALWAYS END
+@import "components/media.scss";
+
+//Load Libs SASS
+@import "html/libs/animate/animate.sass";
+@import "html/libs/jquery-flipster-master/dist/jquery.flipster";
+//@import "html/libs/owl.carousel/dist/assets/owl.carousel.min";
+//@import "html/libs/superfish/dist/css/superfish";
+//@import "html/libs/font-awesome/scss/font-awesome.scss";
+//@import "html/libs/jQuery.mmenu/dist/css/jquery.mmenu.all";
+@import "html/libs/magnific-popup/dist/magnific-popup";

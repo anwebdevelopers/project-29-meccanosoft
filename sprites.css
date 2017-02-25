@@ -1,0 +1,46 @@
+.icon6, .title, .icon1, .icon2, .icon3, .icon4, .icon5{
+	background: url(sprites.png) no-repeat;
+}
+
+.icon6{
+	background-position: -320px -152px ;
+	width: 175px;
+	height: 125px;
+}
+
+.title{
+	background-position: -415px -7px ;
+	width: 70px;
+	height: 10px;
+}
+
+.icon1{
+	background-position: -15px -5px ;
+	width: 65px;
+	height: 125px;
+}
+
+.icon2{
+	background-position: -110px -16px ;
+	width: 170px;
+	height: 114px;
+}
+
+.icon3{
+	background-position: -302px 0;
+	width: 99px;
+	height: 134px;
+}
+
+.icon4{
+	background-position: 0 -158px ;
+	width: 152px;
+	height: 121px;
+}
+
+.icon5{
+	background-position: -165px -141px ;
+	width: 136px;
+	height: 138px;
+}
+

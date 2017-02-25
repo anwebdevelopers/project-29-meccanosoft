@@ -1,0 +1,16 @@
+@import "bourbon";
+
+$main-color: #49aeb4;
+$fc: #3e5273;
+
+@mixin button {
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+@mixin pseudo($display: block, $pos: absolute, $content: ''){
+  content: $content;
+  display: $display;
+  position: $pos;
+}

@@ -1,0 +1,138 @@
+.contacts {
+	position: relative;
+	z-index: 0;
+	padding: 60px 0 100px;
+	margin: 40px  0 0 0;
+	background-image: linear-gradient(to right bottom, lighten($main-color, 45%), transparent 30%);;
+}
+.contacts__wrapper {
+	@extend .container;
+}
+.contacts__box {
+	width: 37%;
+	margin: 50px 0 0 0;
+}
+.contacts__name {
+	font-weight: 600;
+	font-size: 24px;
+}
+.contacts__adress {
+	margin: 20px 0 0 0;
+	font-size: 24px;
+}
+.contacts__phone {
+	margin: 20px 0 0 0;
+	font-size: 24px;
+	a {
+		position: relative;
+		text-decoration: none;
+		color: $fc;
+		transition: all .8s ease;
+		&:after {
+	        content: '';
+	        position: absolute;
+	        left: 50%;
+	        right: 50%;
+	        bottom: 0;
+	        height: 1px;
+	        background-color: $main-color;
+	        transition: all .3s ease;
+	    }
+		&:hover, &:active {
+			color: $main-color;		
+			&:after {
+	            left: 0;
+	            right: 0;
+	        }
+		}
+	}
+}
+.contacts__social {
+	margin: 35px 0 0 0;
+	a {
+		display: inline-block;
+		vertical-align: top;
+		width: 30px;
+		height: 30px;
+		margin: 0 0 5px 16px;
+		font-size: 16px;
+		text-decoration: none;
+		line-height: 26px;
+		text-align: center;
+		color: #59d8e0;
+		border: 2px solid #59d8e0;
+		border-radius: 50%;
+		box-shadow: 0 0 0 5px transparentize(#59d8e0, .7);
+		transition: all .5s ease;
+		&:hover, &:active {
+			color: #fff;
+			background-color: #59d8e0;
+	        box-shadow: 0 0 10px 20px transparent;
+	    }
+	}
+}
+.contacts__links {
+	display: inline-block;
+	vertical-align: top;
+	margin: 35px 0 0 0;
+	padding: 25px 0 0 0;
+	border-top: 1px solid $main-color;
+	font-size: 16px;
+	text-transform: uppercase;
+	a {
+		display: block;
+		margin: 0 0 10px 0;
+		color: $fc;
+		text-decoration: none;
+	 	transition: all .3s ease;
+	 	&:hover, &:active {
+			color: $main-color;		
+		}
+    }
+	
+}
+.contacts__map {
+	position: absolute;
+	left: 42%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.contacts {
+		padding: 60px 0 430px;
+	}
+	.contacts__box {
+		width: auto;
+		margin: 50px 0 0 0;
+	}
+	.contacts__map {
+		height: 400px;
+		left: 0;
+		top: auto;
+	}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	/**/
+}
